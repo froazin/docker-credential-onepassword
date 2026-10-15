@@ -1,9 +1,6 @@
 # Summary
 
 * [Overview](README.md)
-
-## Contributing
-
 * [Contributing](contributing/README.md)
   * [Git workflow](contributing/git-workflow.md)
   * [Commit messages](contributing/commit-messages.md)
