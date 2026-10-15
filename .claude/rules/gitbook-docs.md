@@ -19,7 +19,9 @@ This rule loads in every session, not just when you open a matching file. That w
 
 ## Write for the public
 
-- Write for people who use the credential helper. Put contributor and development guidance in `CONTRIBUTING.md`, not in `docs/`.
-- Document only behaviour that exists in the code on the current branch. Describe anything planned as planned.
+- Write for people who use the credential helper, except in the Contributing section.
+- Put detailed contributor and development guidance in `docs/contributing/`, under the Contributing group in `SUMMARY.md`. Keep `CONTRIBUTING.md` at the repository root as a short summary, under 200 lines, that links to those pages. When you change a contributor convention, update both.
+- Keep the branch naming rules in `CONTRIBUTING.md` only, not in `docs/`. They apply only to branches in the main repository, and external collaborators don't create those: they fork. Guidance on working from a fork goes in `docs/contributing/git-workflow.md`.
+- Document only behaviour that exists in the code on the current branch. Describe anything planned as planned. This includes release automation and build behaviour described on the contributor pages.
 - Don't include real credentials, tokens, account URLs, vault names, item IDs or internal hostnames in examples. Use placeholders such as `<vault>` and `registry.example.com`.
 - Keep each page's `#` heading and its link text in `SUMMARY.md` the same.
